@@ -10,7 +10,7 @@ const Footer = () => {
                 {/* Social Links */}
                 <div className="flex space-x-6 mb-8">
                     <a
-                        href="https://github.com"
+                        href="https://github.com/karanudani3011"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-slate-500 hover:text-softBlue-600 dark:text-slate-400 dark:hover:text-softBlue-400 transition-colors duration-300 transform hover:-translate-y-1"
@@ -19,7 +19,7 @@ const Footer = () => {
                         <Github size={24} />
                     </a>
                     <a
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/karan-udani-web-developer/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-slate-500 hover:text-softBlue-600 dark:text-slate-400 dark:hover:text-softBlue-400 transition-colors duration-300 transform hover:-translate-y-1"
@@ -28,7 +28,7 @@ const Footer = () => {
                         <Linkedin size={24} />
                     </a>
                     <a
-                        href="mailto:contact@example.com"
+                        href="mailto:karanudani30@gmail.com"
                         className="text-slate-500 hover:text-softBlue-600 dark:text-slate-400 dark:hover:text-softBlue-400 transition-colors duration-300 transform hover:-translate-y-1"
                         aria-label="Email"
                     >
@@ -46,9 +46,9 @@ const Footer = () => {
 
                 {/* Copyright */}
                 <div className="text-center text-slate-500 dark:text-slate-400 text-sm flex flex-col items-center">
-                    <p className="flex items-center gap-1 mb-2">
+                  { /*  <p className="flex items-center gap-1 mb-2">
                         Built with <Heart size={16} className="text-red-500 animate-pulse" /> by Software Developer
-                    </p>
+                    </p> */ }
                     <p>&copy; {currentYear} All rights reserved.</p>
                 </div>
             </div>
