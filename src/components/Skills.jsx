@@ -30,7 +30,7 @@ const Skills = () => {
             title: 'AI Tools',
             skills: [
                 { name: 'LangChain', level: 65 },
-                { name: 'Llama3', level: 70 },
+                { name: 'Llama3', level: 60 },
                 { name: 'Groq API', level: 70 },
             ]
         }
