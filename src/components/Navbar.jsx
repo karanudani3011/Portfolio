@@ -55,7 +55,7 @@ const Navbar = () => {
                             <Code2 size={24} />
                         </div>
                         <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-softBlue-600 to-softBlue-400 dark:from-softBlue-400 dark:to-softBlue-200">
-                            KaranPortfolio
+                            Karan's Portfolio
                         </span>
                     </motion.div>
 
