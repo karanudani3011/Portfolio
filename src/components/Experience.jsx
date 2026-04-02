@@ -6,7 +6,7 @@ const Experience = () => {
         {
             title: 'Full Stack Developer',
             company: 'Freelance / Personal Projects',
-            date: 'Jan 2023 - Present',
+            date: 'Jan 2025 - Present',
             description: 'Developed and maintained various web applications including an AI Code Detector and a medical assistant platform. Specialized in React framework and modern backend technologies.',
             icon: <Briefcase size={20} className="text-white" />,
             color: 'bg-softBlue-600'
@@ -14,15 +14,35 @@ const Experience = () => {
         {
             title: 'AI Integration Specialist',
             company: 'Self-Directed Learning',
-            date: 'Jun 2023 - Present',
+            date: 'Jun 2024 - Present',
             description: 'Integrated LLMs (Llama3, Groq API) into applications. Created smart payment agents and text analysis tools leveraging LangChain.',
             icon: <GraduationCap size={20} className="text-white" />,
             color: 'bg-slate-800 dark:bg-slate-600'
         },
+
+        {
+            title: 'Bachelor of Computer Applications (BCA)',
+            company: 'Atmiya University',
+            date: '2022 - 2025',
+            description: 'Focused on software development, web technologies, and database management. Completed projects in AI, web development, and backend systems.',
+            icon: <GraduationCap size={20} className="text-white" />,
+            color: 'bg-blue-700 dark:bg-blue-500'
+        },
+
+        {
+
+            title: 'Master of Computer Applications (MCA)',
+            company: 'Marwadi University',
+            date: 'Jul 2025 - Present',
+            description: 'Pursuing MCA with a focus on software development, AI integration, web technologies, and database management. Working on projects like AI-powered applications, full-stack systems, and backend APIs.',
+            icon: <GraduationCap size={20} className="text-white" />,
+            color: 'bg-blue-700 dark:bg-blue-500'
+
+        },
         {
             title: 'Hackathon Participant',
             company: 'Tech Innovators Hackathon',
-            date: 'Nov 2023',
+            date: 'Nov 2024',
             description: 'Collaborated with a team of developers to build a smart hospital management prototype within 48 hours. Focused on the backend architecture using PHP and MySQL.',
             icon: <Trophy size={20} className="text-white" />,
             color: 'bg-softBlue-500'
