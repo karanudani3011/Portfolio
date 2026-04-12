@@ -1,16 +1,76 @@
-# React + Vite
+# 🌐 Portfolio Website (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern and responsive personal portfolio website built using **React** and **Vite**. It showcases projects, skills, and contact information with a clean UI and smooth animations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ⚡ Fast performance with Vite
+- 🎨 Modern UI with Tailwind CSS
+- 📱 Fully responsive design
+- 🎬 Smooth animations using Framer Motion
+- 📂 Project showcase with GitHub links
+- 🔍 Filter projects by category (Web / AI)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React Icons
+
+---
+
+## 📁 Project Structure
+
+
+Portfolio/
+│── src/
+│ ├── components/
+│ │ └── Projects.jsx
+│ ├── App.jsx
+│ └── main.jsx
+│── public/
+│── package.json
+│── vite.config.js
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/karanudani3011/Portfolio.git
+cd Portfolio
+2️⃣ Install dependencies
+npm install
+3️⃣ Run development server
+npm run dev
+
+👉 Open in browser:
+http://localhost:5173/
+
+📦 Build for Production
+npm run build
+🌍 Live Demo
+
+(Add your deployed link here if available)
+
+📌 Projects Included
+🌱 Namrata Green Foundation (NGO Website)
+💼 JobConnect (Job Portal)
+🎙️ Jarvis AI Voice Assistant
+📄 Resume Tracker (AI + Groq API)
+🤝 Contributing
+
+Feel free to fork this repo and improve it!
+
+📧 Contact
+
+Karan Udani
+GitHub: https://github.com/karanudani3011
